@@ -21,10 +21,6 @@
     name: common
     tasks_from: app-pre-req
 
-- name: create app directory
-  ansible.builtin.file:
-    path: /app
-    state: directory
 
 - name: install the dependencies
   ansible.builtin.command: npm install
