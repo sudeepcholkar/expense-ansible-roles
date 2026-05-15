@@ -5,7 +5,6 @@ filters:
   tag:name: nginx
   instance-state-name: running
 hostnames:
-  - private_ip_address
+  - private-ip-address
 compose:
   ansible_host: private_ip_address
-  
