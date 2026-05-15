@@ -1,6 +1,6 @@
 plugin: amazon.aws.aws_ec2
 regions:
-- us-east-1
+- us-east-1c
 filters:
   name: nginx
   instance-state-name: running
