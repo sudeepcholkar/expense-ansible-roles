@@ -1,8 +1,8 @@
 plugin: amazon.aws.aws_ec2
 regions:
-- us-east-1c
+- us-east-1
 filters:
-  name: nginx
+  tag:name: nginx
   instance-state-name: running
 hostnames:
   - private-ip-address
