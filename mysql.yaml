@@ -2,6 +2,6 @@
   hosts: mysql
   become: true
   vars_files:
-  - /var/expense/credentials_mysql.yaml
+  - /home/ec2-user/ansible/credentials_mysql.yaml
   roles:
     - mysql
